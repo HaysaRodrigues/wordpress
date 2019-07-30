@@ -18,5 +18,7 @@
 
 #### Falando de customização do painel ADMIN
 - [Os ícones para customização do painel ADMIN](https://developer.wordpress.org/resource/dashicons/#calendar-alt)
+
 - O método [`register_post_type()`](https://developer.wordpress.org/reference/functions/register_post_type/) permite você mudar de Posts para o tipo que você precisa, exemplo: adiconar CDs, ao invés de posts. Tem dois args: o 1º é um apelido e o 2º é um array de configurações.
+
 - o método [`add_action('init', 'metodo_para_chamar_quando_chegar_no_init')`](https://developer.wordpress.org/reference/functions/add_action/) Quando você cria funções para organizar e isolar o código, para chamar essas novas funções, usamos esse método. O primeiro arg é o quando executar sua função e o segundo arg é chamada da função. 

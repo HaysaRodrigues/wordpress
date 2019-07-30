@@ -10,3 +10,7 @@
 `get_header()`
 - [Após criar alguns posts dentro do painel admin do wordpress, precisamos mostrar os post no site. Então usamos o The Loop como:](https://codex.wordpress.org/The_Loop)
 `while(have_posts())`
+
+#### Alguns métodos que vão ser encontrados e usados
+- [`get_template_directory_uri()`](https://developer.wordpress.org/reference/functions/get_template_directory_uri/). Ao invés de você usar `wordpress/wp-content/themes/malura/style.css`, você chama esse método e consegue acessar apenas com: `href="<?= get_template_directory_uri(); ?>/style.css"`
+

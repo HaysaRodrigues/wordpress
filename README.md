@@ -44,6 +44,6 @@
 
 |E os templates| links|
 | --- | --- | 
-| `single.php` | ... |
+| `single.php`, `page.php` | [leitura 1](https://www.wptotal.com/como-criar-um-wordpress-theme-parte-4/) |
 
 
